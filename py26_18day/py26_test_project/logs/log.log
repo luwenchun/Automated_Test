@@ -1,0 +1,104 @@
+2020-02-14 20:44:59,734 - [testregister.py-->line:35] - ERROR: 用例 账号大于18位 执行未通过
+2020-02-14 20:44:59,734 - [testregister.py-->line:36] - ERROR: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\py26_test_project\testcases\testregister.py", line 32, in test_register
+    self.assertEqual(expected, res)
+  File "C:\python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+2020-02-14 20:57:14,670 - [testregister.py-->line:40] - INFO: 用例 正常注册 执行通过
+2020-02-14 20:57:14,720 - [testregister.py-->line:40] - INFO: 用例 两次密码不一致 执行通过
+2020-02-14 20:57:14,761 - [testregister.py-->line:40] - INFO: 用例 账号已存在 执行通过
+2020-02-14 20:57:14,801 - [testregister.py-->line:40] - INFO: 用例 密码少于6位 执行通过
+2020-02-14 20:57:14,847 - [testregister.py-->line:40] - INFO: 用例 密码大于18位 执行通过
+2020-02-14 20:57:14,893 - [testregister.py-->line:40] - INFO: 用例 账号少于6位 执行通过
+2020-02-14 20:57:14,937 - [testregister.py-->line:35] - ERROR: 用例 账号大于18位 执行未通过
+2020-02-14 20:57:14,937 - [testregister.py-->line:36] - ERROR: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\py26_test_project\testcases\testregister.py", line 32, in test_register
+    self.assertEqual(expected, res)
+  File "C:\python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+2020-02-14 20:57:53,607 - [testregister.py-->line:40] - INFO: 用例 正常注册 执行通过
+2020-02-14 20:57:53,647 - [testregister.py-->line:40] - INFO: 用例 两次密码不一致 执行通过
+2020-02-14 20:57:53,694 - [testregister.py-->line:40] - INFO: 用例 账号已存在 执行通过
+2020-02-14 20:57:53,733 - [testregister.py-->line:40] - INFO: 用例 密码少于6位 执行通过
+2020-02-14 20:57:53,777 - [testregister.py-->line:40] - INFO: 用例 密码大于18位 执行通过
+2020-02-14 20:57:53,834 - [testregister.py-->line:40] - INFO: 用例 账号少于6位 执行通过
+2020-02-14 20:57:53,880 - [testregister.py-->line:35] - ERROR: 用例 账号大于18位 执行未通过
+2020-02-14 20:57:53,881 - [testregister.py-->line:36] - ERROR: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\py26_test_project\testcases\testregister.py", line 32, in test_register
+    self.assertEqual(expected, res)
+  File "C:\python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+2020-02-14 21:34:57,700 - [testregister.py-->line:41] - INFO: 用例 正常注册 执行通过
+2020-02-14 21:34:57,735 - [testregister.py-->line:41] - INFO: 用例 两次密码不一致 执行通过
+2020-02-14 21:34:57,775 - [testregister.py-->line:41] - INFO: 用例 账号已存在 执行通过
+2020-02-14 21:34:57,810 - [testregister.py-->line:41] - INFO: 用例 密码少于6位 执行通过
+2020-02-14 21:34:57,861 - [testregister.py-->line:41] - INFO: 用例 密码大于18位 执行通过
+2020-02-14 21:34:57,903 - [testregister.py-->line:41] - INFO: 用例 账号少于6位 执行通过
+2020-02-14 21:34:57,942 - [testregister.py-->line:36] - ERROR: 用例 账号大于18位 执行未通过
+2020-02-14 21:34:57,942 - [testregister.py-->line:37] - ERROR: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\py26_test_project\testcases\testregister.py", line 33, in test_register
+    self.assertEqual(expected, res)
+  File "C:\python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+2020-02-14 22:10:38,350 - [testregister.py-->line:41] - INFO: 用例 正常注册 执行通过
+2020-02-14 22:10:38,403 - [testregister.py-->line:41] - INFO: 用例 两次密码不一致 执行通过
+2020-02-14 22:10:38,447 - [testregister.py-->line:41] - INFO: 用例 账号已存在 执行通过
+2020-02-14 22:10:38,481 - [testregister.py-->line:41] - INFO: 用例 密码少于6位 执行通过
+2020-02-14 22:10:38,542 - [testregister.py-->line:41] - INFO: 用例 密码大于18位 执行通过
+2020-02-14 22:10:38,592 - [testregister.py-->line:41] - INFO: 用例 账号少于6位 执行通过
+2020-02-14 22:10:38,656 - [testregister.py-->line:36] - ERROR: 用例 账号大于18位 执行未通过
+2020-02-14 22:10:38,656 - [testregister.py-->line:37] - ERROR: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
+Traceback (most recent call last):
+  File "C:\project\py26_project\py26_test_project\testcases\testregister.py", line 33, in test_register
+    self.assertEqual(expected, res)
+  File "C:\python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 1, 'msg': '注册成功'}
+- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
++ {'code': 1, 'msg': '注册成功'}
