@@ -10,12 +10,12 @@ Company:湖南零檬信息技术有限公司
 import unittest
 import random
 import os
-from library.ddt import ddt, data
-from common.readexcel import ReadExcel
-from common.handlepath import DATADIR
-from common.handleconfig import conf
-from common.handlerequests import SendRequest
-from common.handlelog import log
+from py26_21day.py26_api_test.library.ddt import ddt, data
+from py26_21day.py26_api_test.common.readexcel import ReadExcel
+from py26_21day.py26_api_test.common.handlepath import DATADIR
+from py26_21day.py26_api_test.common.handleconfig import conf
+from py26_21day.py26_api_test.common.handlerequests import SendRequest
+from py26_21day.py26_api_test.common.handlelog import log
 
 case_file = os.path.join(DATADIR, "apicases.xlsx")
 

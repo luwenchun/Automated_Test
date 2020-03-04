@@ -1,6 +1,6 @@
 import unittest
 import os
-from common.handlepath import CASEDIR,REPORTDIR
+from py26_21day.py26_api_test.common.handlepath import CASEDIR,REPORTDIR
 from HTMLTestRunnerNew import HTMLTestRunner
 
 # 第一步：创建套件

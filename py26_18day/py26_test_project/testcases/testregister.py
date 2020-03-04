@@ -28,6 +28,7 @@ class TestRegister(unittest.TestCase):
         row = case["case_id"] + 1
         # 第二步：调用函数获取实际结果
         res = register(*data)
+        print('11111',*data)
         # 第三步：比对数据
         try:
             self.assertEqual(expected, res)

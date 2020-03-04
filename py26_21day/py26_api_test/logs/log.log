@@ -176,3 +176,49 @@ AssertionError: 1 != 2
 2020-02-21 21:45:15,895 - [test_register.py-->line:57] - INFO: 用例：注册名11位，执行未通过
 2020-02-21 21:45:16,036 - [test_register.py-->line:57] - INFO: 用例：类型输入非0，1内容，执行未通过
 2020-02-21 21:45:16,211 - [test_register.py-->line:57] - INFO: 用例：不输入类型，执行未通过
+2020-03-03 15:49:55,441 - [test_register.py-->line:91] - ERROR: 用例：登录成功，执行未通过
+2020-03-03 15:49:55,442 - [test_register.py-->line:92] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "/Users/mac/AAApython/ningmeng/py26_21day/py26_api_test/testcases/test_register.py", line 87, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-03-03 15:49:55,640 - [test_register.py-->line:91] - ERROR: 用例：手机号为空，执行未通过
+2020-03-03 15:49:55,641 - [test_register.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "/Users/mac/AAApython/ningmeng/py26_21day/py26_api_test/testcases/test_register.py", line 87, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-03 15:49:55,893 - [test_register.py-->line:91] - ERROR: 用例：密码为空，执行未通过
+2020-03-03 15:49:55,894 - [test_register.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "/Users/mac/AAApython/ningmeng/py26_21day/py26_api_test/testcases/test_register.py", line 87, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-03 15:49:56,139 - [test_register.py-->line:96] - INFO: 用例：手机号未注册，执行未通过
+2020-03-03 15:49:56,508 - [test_register.py-->line:96] - INFO: 用例：密码错误，执行未通过
+2020-03-03 15:49:56,714 - [test_register.py-->line:96] - INFO: 用例：手机号格式错误，执行未通过
+2020-03-03 15:49:57,068 - [test_register.py-->line:57] - INFO: 用例：注册成功-带注册名，执行未通过
+2020-03-03 15:49:57,416 - [test_register.py-->line:57] - INFO: 用例：成功-不带用户名，执行未通过
+2020-03-03 15:49:57,649 - [test_register.py-->line:57] - INFO: 用例：不输入手机号，执行未通过
+2020-03-03 15:49:57,896 - [test_register.py-->line:57] - INFO: 用例：手机号长度10位，执行未通过
+2020-03-03 15:49:58,119 - [test_register.py-->line:57] - INFO: 用例：手机号长度12位，执行未通过
+2020-03-03 15:49:58,317 - [test_register.py-->line:57] - INFO: 用例：手机号含有非法字符，执行未通过
+2020-03-03 15:49:58,581 - [test_register.py-->line:57] - INFO: 用例：已注册过的手机号，执行未通过
+2020-03-03 15:49:58,774 - [test_register.py-->line:57] - INFO: 用例：密码7位，执行未通过
+2020-03-03 15:49:59,001 - [test_register.py-->line:57] - INFO: 用例：密码17位，执行未通过
+2020-03-03 15:49:59,213 - [test_register.py-->line:57] - INFO: 用例：不输入密码，执行未通过
+2020-03-03 15:49:59,445 - [test_register.py-->line:57] - INFO: 用例：注册名11位，执行未通过
+2020-03-03 15:49:59,660 - [test_register.py-->line:57] - INFO: 用例：类型输入非0，1内容，执行未通过
+2020-03-03 15:49:59,953 - [test_register.py-->line:57] - INFO: 用例：不输入类型，执行未通过

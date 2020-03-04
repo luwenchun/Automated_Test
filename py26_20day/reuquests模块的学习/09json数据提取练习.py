@@ -129,8 +129,8 @@ data = {'code': 200,
                   'is_original': True, 'article_type': '热点', 'intro': 'OYO被称将在中国和印度裁员数千人', 'source': '小饭桌',
                   'time': '2020-01-11 09:45:17', 'keywords': ['小红书', '唱吧', '瑞幸咖啡']}]}
 
-# uid = jsonpath.jsonpath(data, "$.data[15]..uid")
-# print(uid)
+uid = jsonpath.jsonpath(data, "$.data[15]..uid")
+print(uid)
 
 # 如果没有提取到数据 返回的是False
 

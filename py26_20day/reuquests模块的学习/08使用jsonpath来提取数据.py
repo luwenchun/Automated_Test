@@ -22,9 +22,10 @@ data = {
 res = requests.post(url=url, json=data, headers=headers)
 
 data = res.json()
-# print(data)
+print(data)
 # 提取token
-token = jsonpath.jsonpath(data, "$..token")[0]
+token = jsonpath.jsonpath(data, "$..token")
+# [0]
 print(token)
 # 提取token值
 token_type = jsonpath.jsonpath(data, "$..token_type")[0]
