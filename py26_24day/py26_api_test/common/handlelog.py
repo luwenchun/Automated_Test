@@ -8,8 +8,8 @@ Company:湖南零檬信息技术有限公司
 """
 import os
 import logging
-from common.handleconfig import conf
-from common.handlepath import LOGDIR
+from py26_24day.py26_api_test.common.handleconfig import conf
+from py26_24day.py26_api_test.common.handlepath import LOGDIR
 
 
 class HandleLog(object):

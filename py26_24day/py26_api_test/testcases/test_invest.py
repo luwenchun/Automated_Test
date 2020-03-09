@@ -11,15 +11,15 @@ import unittest
 import random
 import os
 import jsonpath
-from library.ddt import ddt, data
-from common.readexcel import ReadExcel
-from common.handlepath import DATADIR
-from common.handleconfig import conf
-from common.handlerequests import SendRequest
-from common.handlelog import log
+from py26_24day.py26_api_test.library.ddt import ddt, data
+from py26_24day.py26_api_test.common.readexcel import ReadExcel
+from py26_24day.py26_api_test.common.handlepath import DATADIR
+from py26_24day.py26_api_test.common.handleconfig import conf
+from py26_24day.py26_api_test.common.handlerequests import SendRequest
+from py26_24day.py26_api_test.common.handlelog import log
 
-from common.connectdb import DB
-from common.handle_data import replace_data, CaseDate
+from py26_24day.py26_api_test.common.connectdb import DB
+from py26_24day.py26_api_test.common.handle_data import replace_data, CaseDate
 
 """
 投资接口：
@@ -35,6 +35,60 @@ from common.handle_data import replace_data, CaseDate
 
 
 """
+# case_file = os.path.join(DATADIR, "apicases.xlsx")
+#
+#
+# @ddt
+# class TestLogin(unittest.TestCase):
+#     excel = ReadExcel(case_file, "invest")
+#     cases = excel.read_data()
+#     request = SendRequest()
+#
+#     @data(*cases)
+#     def test_login(self, case):
+#         # 第一步：准备用例数据
+#         url = conf.get("env", "url") + case["url"]
+#         method = case["method"]
+#         case["data"] = replace_data(case["data"])
+#         data = eval(case["data"])
+#         headers = eval(conf.get("env", "headers"))
+#         # 判断是否是登录接口，不是登录接口则需要添加token
+#         if case["interface"] != "login":
+#             headers["Authorization"] = getattr(CaseDate, "token_value")
+#
+#         expected = eval(case["expected"])
+#         row = case["case_id"] + 1
+#         # 第二步：发送请求，获取结果
+#         response = self.request.send_request(url=url, method=method, json=data, headers=headers)
+#         res = response.json()
+#
+#         print('11111111111111',res)
+#         # 发送请求后，判断是否是登陆接口
+#         if case["interface"].lower() == "login":
+#             # 提取用户id保存为类属性
+#             CaseDate.member_id = str(jsonpath.jsonpath(res, "$..id")[0])
+#             token = jsonpath.jsonpath(res, "$..token")[0]
+#             token_type = jsonpath.jsonpath(res, "$..token_type")[0]
+#             # 提取token,保存为类属性
+#             CaseDate.token_value = token_type + " " + token
+#         # 判断是否是加标的用例，如果是的则请求标id
+#         if case["interface"] == "add":
+#             CaseDate.loan_id = str(jsonpath.jsonpath(res,"$..id")[0])
+#         # 第三步：断言（比对预期结果和实际结果）
+#         try:
+#             self.assertEqual(expected["code"], res["code"])
+#             # self.assertEqual(expected["msg"], res["msg"])
+#             self.assertIn(expected["msg"], res["msg"])
+#
+#
+#         except AssertionError as e:
+#             self.excel.write_data(row=row, column=8, value="未通过")
+#             log.error("用例：{}，执行未通过".format(case["title"]))
+#             log.exception(e)
+#             raise e
+#         else:
+#             self.excel.write_data(row=row, column=8, value="通过")
+#             log.info("用例：{}，执行未通过".format(case["title"]))
 case_file = os.path.join(DATADIR, "apicases.xlsx")
 
 

@@ -21,7 +21,7 @@ Company:湖南零檬信息技术有限公司
 """
 import os
 from configparser import ConfigParser
-from common.handlepath import CONFDIR
+from py26_24day.py26_api_test.common.handlepath import CONFDIR
 
 
 class HandleConfig(ConfigParser):

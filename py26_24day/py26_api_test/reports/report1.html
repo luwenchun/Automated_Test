@@ -116,19 +116,19 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">py26测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> musen</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-03-02 21:47:49</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:16.651734</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 74，通过 59，失败 15，通过率= 79.73%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-03-08 23:50:46</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:19.124259</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 66，通过 50，失败 15，错误 1，通过率= 75.76%</p>
 
 <p class='description'>第一次接口测试报告</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 79.73% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 75.76% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 15 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 59 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 74 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 50 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 66 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -251,58 +251,43 @@ function html_escape(s) {
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr class='passClass warning'>
-    <td>test_invest.TestLogin</td>
-    <td class="text-center">9</td>
-    <td class="text-center">9</td>
+<tr class='errorClass warning'>
+    <td>unittest.loader._FailedTest</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c3',9)" class="detail" id='c3'>详细</a></td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
 </tr>
 
-<tr id='pt3_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_1: 管理员正常登录</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
+<tr id='ft3_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse in" align="left">
+    <pre>
+    
+ft3_1: ImportError: Failed to import test module: test_invest
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_invest.py", line 42, in &lt;module&gt;
+    class TestLogin(unittest.TestCase):
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_invest.py", line 45, in TestLogin
+    request = SendRequests()
+NameError: name 'SendRequests' is not defined
 
-<tr id='pt3_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_2: 管理员加标</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
 
-<tr id='pt3_3' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_3: 管理员审核</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
 
-<tr id='pt3_4' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_4: 投资人正常登录</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt3_5' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_5: 投资人正常投资</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt3_6' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_6: 投资人id为空</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt3_7' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_7: 标id为空</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt3_8' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_8: 投资金额为空</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt3_9' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_login_9: 投资金额大于项目可投金额</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    </pre>
+    </div>
+    </td>
 </tr>
 
 <tr class='failClass warning'>
@@ -356,13 +341,13 @@ function html_escape(s) {
     <pre>
     
 ft4_7: 预期结果： {'code': 2, 'msg': '数字格式化异常'}
-实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 34758421.12, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 12775519.2, 'mobile_phone': '13367899876', 'reg_name': '木森667', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 86, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 86, in test_recharge
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 2 != 0
 
@@ -389,13 +374,13 @@ AssertionError: 2 != 0
     <pre>
     
 ft4_9: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
-实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 34758421.12, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 12775519.2, 'mobile_phone': '13367899876', 'reg_name': '木森667', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 86, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 86, in test_recharge
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 2 != 0
 
@@ -419,11 +404,11 @@ AssertionError: 2 != 0
 ft4_10: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
 实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 87, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 87, in test_recharge
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
 - 金额必须大于0并且小于或者等于500000
@@ -452,11 +437,11 @@ AssertionError: '金额必须大于0并且小于或者等于500000' != '余额�
 ft4_11: 预期结果： {'code': 1, 'msg': '金额为空'}
 实际结果： {'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 86, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 86, in test_recharge
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 1 != 2
 
@@ -480,11 +465,11 @@ AssertionError: 1 != 2
 ft4_12: 预期结果： {'code': 2, 'msg': '金额小数超过两位'}
 实际结果： {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 87, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 87, in test_recharge
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额小数超过两位' != '余额小数超过两位'
 - 金额小数超过两位
@@ -513,11 +498,11 @@ AssertionError: '金额小数超过两位' != '余额小数超过两位'
 ft4_13: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
 实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 97, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 97, in test_recharge
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_rechage.py", line 87, in test_recharge
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_rechage.py", line 87, in test_recharge
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
 - 金额必须大于0并且小于或者等于500000
@@ -558,11 +543,11 @@ AssertionError: '金额必须大于0并且小于或者等于500000' != '余额�
     <pre>
     
 ft5_1: Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 99, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 99, in test_login
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 93, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 93, in test_login
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 0 != 1001
 
@@ -584,11 +569,11 @@ AssertionError: 0 != 1001
     <pre>
     
 ft5_2: Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 99, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 99, in test_login
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 93, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 93, in test_login
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 1 != 2
 
@@ -610,11 +595,11 @@ AssertionError: 1 != 2
     <pre>
     
 ft5_3: Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 99, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 99, in test_login
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_register.py", line 93, in test_login
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_register.py", line 93, in test_login
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 1 != 2
 
@@ -769,13 +754,13 @@ AssertionError: 1 != 2
     <pre>
     
 ft7_8: 预期结果： {'code': 2, 'msg': '数字格式化异常'}
-实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 34256020.8, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 12273118.88, 'mobile_phone': '13367899876', 'reg_name': '木森667', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 122, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 122, in test_withdraw
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 2 != 0
 
@@ -802,13 +787,13 @@ AssertionError: 2 != 0
     <pre>
     
 ft7_10: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
-实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 34256020.8, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 12273118.88, 'mobile_phone': '13367899876', 'reg_name': '木森667', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 122, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 122, in test_withdraw
     self.assertEqual(expected["code"], res["code"])
 AssertionError: 2 != 0
 
@@ -832,11 +817,11 @@ AssertionError: 2 != 0
 ft7_11: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
 实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 123, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 123, in test_withdraw
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
 - 金额必须大于0并且小于或者等于500000
@@ -865,11 +850,11 @@ AssertionError: '金额必须大于0并且小于或者等于500000' != '余额�
 ft7_12: 预期结果： {'code': 1, 'msg': '金额为空'}
 实际结果： {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 123, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 123, in test_withdraw
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额为空' != '余额为空'
 - 金额为空
@@ -898,11 +883,11 @@ AssertionError: '金额为空' != '余额为空'
 ft7_13: 预期结果： {'code': 2, 'msg': '金额小数超过两位'}
 实际结果： {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 123, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 123, in test_withdraw
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额小数超过两位' != '余额小数超过两位'
 - 金额小数超过两位
@@ -931,11 +916,11 @@ AssertionError: '金额小数超过两位' != '余额小数超过两位'
 ft7_14: 预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
 实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
 Traceback (most recent call last):
-  File "C:\project\py26_project\py26_api_test\library\ddt.py", line 149, in wrapper
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/library/ddt.py", line 149, in wrapper
     return func(self, *args, **kwargs)
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 135, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 135, in test_withdraw
     raise e
-  File "C:\project\py26_project\py26_api_test\testcases\test_withdraw.py", line 123, in test_withdraw
+  File "/Users/mac/AAApython/ningmeng/py26_24day/py26_api_test/testcases/test_withdraw.py", line 123, in test_withdraw
     self.assertEqual(expected["msg"], res["msg"])
 AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
 - 金额必须大于0并且小于或者等于500000
@@ -957,11 +942,11 @@ AssertionError: '金额必须大于0并且小于或者等于500000' != '余额�
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>74</td>
-    <td>59</td>
+    <td>66</td>
+    <td>50</td>
     <td>15</td>
-    <td>0</td>
-    <td>通过率：79.73%</td>
+    <td>1</td>
+    <td>通过率：75.76%</td>
 </tr>
 </table>
 

@@ -9,14 +9,14 @@ Company:湖南零檬信息技术有限公司
 import unittest
 import os
 import jsonpath
-from library.ddt import ddt, data
-from common.readexcel import ReadExcel
-from common.handlepath import DATADIR
-from common.handleconfig import conf
-from common.handlerequests import SendRequest
-from common.handlelog import log
-from common.handle_data import replace_data, CaseDate
-from common.connectdb import DB
+from py26_24day.py26_api_test.library.ddt import ddt, data
+from py26_24day.py26_api_test.common.readexcel import ReadExcel
+from py26_24day.py26_api_test.common.handlepath import DATADIR
+from py26_24day.py26_api_test.common.handleconfig import conf
+from py26_24day.py26_api_test.common.handlerequests import SendRequest
+from py26_24day.py26_api_test.common.handlelog import log
+from py26_24day.py26_api_test.common.handle_data import replace_data, CaseDate
+from py26_24day.py26_api_test.common.connectdb import DB
 
 file_path = os.path.join(DATADIR, "apicases.xlsx")
 

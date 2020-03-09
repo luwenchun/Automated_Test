@@ -13,7 +13,7 @@ Company:湖南零檬信息技术有限公司
 """
 
 import pymysql
-from common.handleconfig import conf
+from py26_24day.py26_api_test.common.handleconfig import conf
 
 
 class DB:

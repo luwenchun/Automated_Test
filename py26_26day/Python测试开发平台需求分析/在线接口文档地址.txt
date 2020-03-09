@@ -1,0 +1,6 @@
+# 测开平台项目地址：
+http://api.keyou.site:8000/docs/#projects-list
+
+git上的开源项目地址（有时间的同学可以拉取下来练练手）：
+https://github.com/lijiapeng0302/node-elem
+https://github.com/bailicangdu/node-elm/blob/master/API.md
