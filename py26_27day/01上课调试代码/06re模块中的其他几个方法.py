@@ -20,12 +20,12 @@ import re
 s = "123#python#1234#python#11111#pwd#python"
 
 # res = re.findall("python",s)
-res = re.search("#(python)#1234#(python)#11111#(pwd)#",s)
-print(res)
-print(res.group())
-print(res.group(1))
-print(res.group(2))
-print(res.group(3))
+# res = re.search("#(python)#1234#(python)#11111#(pwd)#",s)
+# print(res)
+# print(res.group())
+# print(res.group(1))
+# print(res.group(2))
+# print(res.group(3))
 
 # macth
 # # res= re.match(r"1234",s)

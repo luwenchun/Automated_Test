@@ -31,7 +31,7 @@ cur = conn.cursor()
 sql2 = "SELECT * FROM  futureloan.member LIMIT 10"
 res = cur.execute(sql2)
 # 返回的是查询到的数据条数
-print(res)
+# print(res)
 
 # 第四步：获取查询的数据
 # fechone:获取一条数据(返回的查询集中的第一条数据，元组类型)

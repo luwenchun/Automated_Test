@@ -3,35 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d50ef27a-dd9c-4d8b-9c42-7790b6c69981" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_04day/01列表的其他方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_04day/01列表的其他方法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_06day/04for循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_06day/04for循环.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_10day/pack/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_10day/pack/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_10day/pack/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_10day/pack/test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_15day/demo1/02封装一个操作excel的类.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_15day/demo1/02封装一个操作excel的类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_15day/demo1/03封装excel的类优化.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_15day/demo1/03封装excel的类优化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_15day/demo2/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_15day/demo2/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_16day/demo2/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_16day/demo2/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_20day/reuquests模块的学习/09json数据提取练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_20day/reuquests模块的学习/09json数据提取练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/02数据学习的代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/02数据学习的代码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/04关于游标类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/04关于游标类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_23day/py26_api_test/01上课调试代码/02数据学习的代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_23day/py26_api_test/01上课调试代码/02数据学习的代码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_23day/py26_api_test/01上课调试代码/04关于游标类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_23day/py26_api_test/01上课调试代码/04关于游标类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/01上课调试代码/02数据学习的代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/01上课调试代码/02数据学习的代码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/01上课调试代码/04关于游标类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/01上课调试代码/04关于游标类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/common/connectdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/common/connectdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handle_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handle_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handleconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handleconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handlelog.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/common/handlelog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/data/apicases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/data/apicases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/reports/report1.html" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/reports/report1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_adiut.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_adiut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_invest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_rechage.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_rechage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_withdraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_withdraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/02数据学习的代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/02数据学习的代码.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/06re模块中的其他几个方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/06re模块中的其他几个方法.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,101 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/connectdb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="31" />
-              <folding>
-                <element signature="e#163#177#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handle_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#149#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handleconfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handlelog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handlerequests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/readexcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-383" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/conf/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_adiut.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_invest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
-              <folding>
-                <element signature="e#149#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/14034deb8e76fdbae2cb85b9e61d3529/Message/MessageTemp/6db9d81a6075a40346fe2b68acd60416/File/test_invest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -197,13 +76,19 @@
         <option value="$PROJECT_DIR$/py26_24day/py26_api_test/common/handlelog.py" />
         <option value="$PROJECT_DIR$/py26_24day/py26_api_test/run_test.py" />
         <option value="$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_invest.py" />
+        <option value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/02数据学习的代码.py" />
+        <option value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/06re模块中的其他几个方法.py" />
+        <option value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/07正则替换数据的应用.py" />
+        <option value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/09邮件发送测试报告.py" />
+        <option value="$PROJECT_DIR$/py26_30day/web_01_环境安装/demo_01_启动浏览器.py" />
+        <option value="$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_01_元素定位.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-28" />
+    <option name="x" value="289" />
     <option name="y" value="23" />
-    <option name="width" value="1399" />
+    <option name="width" value="1375" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -219,11 +104,6 @@
             <path>
               <item name="ningmeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="ningmeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ningmeng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng" type="462c0819:PsiDirectoryNode" />
-              <item name="py26_26day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ningmeng" type="b2602c69:ProjectViewProjectNode" />
@@ -255,8 +135,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_test (1)">
-    <configuration name="02数据学习的代码" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demo_01_元素定位 (1)">
+    <configuration name="05re模块的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ningmeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/02数据学习的代码.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/05re模块的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09json数据提取练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06re模块中的其他几个方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ningmeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_20day/reuquests模块的学习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_20day/reuquests模块的学习/09json数据提取练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/06re模块中的其他几个方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_01_元素定位 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ningmeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_21day/py26_api_test/01上课调试代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_32day/web_03_元素定位" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_21day/py26_api_test/01上课调试代码/demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_01_元素定位.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_01_启动浏览器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ningmeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_24day/py26_api_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_30day/web_01_环境安装" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_24day/py26_api_test/run_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_30day/web_01_环境安装/demo_01_启动浏览器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_01_元素定位" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ningmeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_21day/py26_api_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py26_31day/web_02_dom" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_21day/py26_api_test/run_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py26_31day/web_02_dom/demo_01_元素定位.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_test (1)" />
-        <item itemvalue="Python.02数据学习的代码" />
-        <item itemvalue="Python.run_test" />
-        <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.09json数据提取练习" />
+        <item itemvalue="Python.demo_01_元素定位 (1)" />
+        <item itemvalue="Python.demo_01_元素定位" />
+        <item itemvalue="Python.demo_01_启动浏览器" />
+        <item itemvalue="Python.06re模块中的其他几个方法" />
+        <item itemvalue="Python.05re模块的使用" />
       </list>
     </recent_temporary>
   </component>
@@ -390,9 +270,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-28" y="23" width="1399" height="877" extended-state="0" />
+    <frame x="289" y="23" width="1375" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22351234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22304283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,7 +283,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41401273" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -428,199 +308,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/pythons/12_14/lib/python3.8/site-packages/requests/__version__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/pythons/12_14/lib/python3.8/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/pythons/12_14/lib/python3.8/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/pythons/12_14/lib/python3.8/site-packages/requests/auth.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/pythons/12_14/lib/python3.8/site-packages/requests/help.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/01requests发送网络请求.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/02利用requests来请求接口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/03下载图片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/04get请求的参数传递.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/05使用requests模块发送其他类型的请求.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/06使用requests如何请求cookie+session鉴权的接口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/07使用requests如何请求token鉴权的接口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/08使用jsonpath来提取数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#150#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/09json数据提取练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="167" column="17" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_20day/reuquests模块的学习/baidu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_18day/py26_test_project/common/handleconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/common/handleconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/common/handlelog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="71" />
-          <folding>
-            <element signature="e#149#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/common/handlerequests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/common/readexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/library/HTMLTestRunnerNew.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/library/ddt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/logs/log.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/common/handlepath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="9" selection-start-line="30" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/reports/report1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/conf/config.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/testcases/test_rechage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="11" />
-          <folding>
-            <element signature="e#150#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/testcases/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="95" column="57" lean-forward="true" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
-          <folding>
-            <element signature="e#149#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/run_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_21day/py26_api_test/01上课调试代码/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_22day/py26_api_test/01上课调试代码/02数据学习的代码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/01上课调试代码/02数据学习的代码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py26_25day/py26_api_test/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -685,7 +372,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/connectdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="912">
           <caret line="49" column="31" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="e#163#177#0" expanded="true" />
@@ -695,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handle_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="304">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="e#149#158#0" expanded="true" />
@@ -705,14 +392,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handleconfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="437">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/handlelog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
+        <state relative-caret-position="209">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
@@ -721,9 +408,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/common/readexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/conf/config.ini">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,16 +427,204 @@
     <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/14034deb8e76fdbae2cb85b9e61d3529/Message/MessageTemp/6db9d81a6075a40346fe2b68acd60416/File/test_invest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_24day/py26_api_test/testcases/test_invest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
+        <state relative-caret-position="415">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
           <folding>
             <element signature="e#149#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/Python测试开发平台需求分析/在线接口文档地址.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/Python测试开发平台需求分析/数据库结构图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/02数据学习的代码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/03decimal类型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/04关于游标类型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/05re模块的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="8" selection-start-line="16" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/06re模块中的其他几个方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/07正则替换数据的应用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="53" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/08使用python来发送邮件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="e#149#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/09邮件发送测试报告.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/10通过附件发送报告.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="55" column="64" selection-start-line="55" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/11时间模块扩展.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/11路径处理.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/demo1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/report1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_26day/py26_api_test/01上课调试代码/task_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_30day/web_01_环境安装/demo_01_启动浏览器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_31day/web_02_dom/dom对象笔记.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_31day/web_02_dom/demo_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_31day/web_02_dom/demo_01_元素定位.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_01_元素定位.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_02_window.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_32day/web_03_元素定位/demo_03_find_element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_32day/web_03_元素定位/web自动化元素定位基础.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_30day/web_01_环境安装/demo_02_html_study.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_30day/web_01_环境安装/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_29day/api_test_project02/testcases/test_03projects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#149#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_29day/api_test_project02/testcases/test_02register.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_29day/api_test_project02/testcases/test_01login.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_29day/api_test_project02/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
